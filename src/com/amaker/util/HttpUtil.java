@@ -11,7 +11,7 @@ import org.apache.http.util.EntityUtils;
 
 public class HttpUtil {
 	
-	public static final String BASE_URL="http://192.168.1.118:8888/Chapter15_Mobile_Police_Server/";
+	public static final String BASE_URL="http://192.168.1.118:8888/Accident_Reporting_Server/";
 	
 	public static HttpGet getHttpGet(String url){
 		HttpGet request = new HttpGet(url);
